@@ -23,10 +23,3 @@ The __Box-Jenkins method__ is composed of two primary tasks:
 
 ### Partial Autocorrelation Function of the Differenced Series
 <img src="output_44_0.png" width="300">
-
-
-
-## Requirements
-
- - `python 3.6`
- - `cvxpy`
