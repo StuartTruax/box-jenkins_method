@@ -28,7 +28,7 @@ A more detailed outline of the method can be given as follows:
 
     * Many  ofthe possible models can be generalized as __autoregressive integrated moving average model (ARIMA)__ models, which are of the form:
 
-$$ \left( 1- \sum^{p}_{i=1} \phi_{i} L^{i} \right) (1-L)^{d} X_t  = \left( 1 + \sum^{q}_{i=1} \theta_{i} L^{i} \right)\epsilon_t $$
+$$ \left( 1- \sum^{p}\_{i=1} \phi\_{i} L^{i} \right) (1-L)^{d} X_t  = \left( 1 + \sum^{q}\_{i=1} \theta\_{i} L^{i} \right)\epsilon_t $$
 
 * Here, $L$ is the __lag__ operator. The shorthand for an ARIMA model is __ARIMA(p,d,q)__, where $p$ is the order of the autorgressive terms, $q$ is the order of the moving average terms, and $d$ is the order of integration (i.e. the number of times the time series has to be differenced to obtain an ARMA model).
 * Differencing the time series (i.e. adjusting $d$>0) is a method for removing non-stationary terms in the time series.
