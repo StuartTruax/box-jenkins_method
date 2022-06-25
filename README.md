@@ -30,7 +30,7 @@ A more detailed outline of the method can be given as follows:
 
 $$ \left( 1- \sum^{p}_{i=1} \phi_{i} L^{i} \right) (1-L)^{d} X_t  = \left( 1 + \sum^{q}_{i=1} \theta_{i} L^{i} \right)\epsilon_t $$
 
-*     Here, $L$ is the __lag__ operator. The shorthand for an ARIMA model is __ARIMA(p,d,q)__, where $p$ is the order of the autorgressive terms, $q$ is the order of the moving average terms, and $d$ is the order of integration (i.e. the number of times the time series has to be differenced to obtain an ARMA model).
+* Here, $L$ is the __lag__ operator. The shorthand for an ARIMA model is __ARIMA(p,d,q)__, where $p$ is the order of the autorgressive terms, $q$ is the order of the moving average terms, and $d$ is the order of integration (i.e. the number of times the time series has to be differenced to obtain an ARMA model).
 * Differencing the time series (i.e. adjusting $d$>0) is a method for removing non-stationary terms in the time series.
 
 * If the ACF indicates an ARIMA(p,d,q) model, determination of the orders of the autoregressive and moving average terms (p and q, respectively) can be determined through the use of the __partial autocorrelation function (PACF)__. The method for this determination follows:
@@ -50,7 +50,7 @@ $$ \left( 1- \sum^{p}_{i=1} \phi_{i} L^{i} \right) (1-L)^{d} X_t  = \left( 1 + \
 
         * Maximum likelihood estimation (most common)
         * Nonlinear least squares regression
-    
+
 
 
 ## Visualizations from the Analyses
