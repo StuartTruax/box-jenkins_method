@@ -1,4 +1,4 @@
-# Box-Jenkins Method
+# Box-Jenkins Method on the S&P 500
 
 Stuart Truax, 2022-06
 
@@ -11,6 +11,8 @@ The __Box-Jenkins method__ is composed of two primary tasks:
 
 1. __Model identification__ and determination of the degree of __stationarity__ of the time series.
 2. __Parameter estimation__ for the identified model.
+
+$\mathbf{x}$
 
 
 ## Visualizations from the Analyses
