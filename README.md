@@ -4,7 +4,7 @@ Stuart Truax, 2022-06
 
 This notebook demonstrates the use of the Box-Jenkins method for time series model identification and parameter estimation. The time series is the inflation-adjusted monthly S&P 500 index for the years 1900 to 2017.
 
-This application of the Box-Jenkins method suggests that the times series is best modeled by an ARIMA(2,1,0) process. The process is nonstationary, with a autorgressive order of 2 in the differenced series most strongly indicated by the data, suggesting that monthly index level changes in the S&P 500 are most strongly dependent on the previous two months of index level changes (i.e. a quarter in the past).
+This application of the Box-Jenkins method suggests that the times series is best modeled by an ARIMA(2,1,0) process. The process is nonstationary, with a autorgressive order of 2 in the differenced series, suggesting that monthly index level changes in the S&P 500 are most strongly dependent on the previous two months of index level changes (i.e. a quarter in the past).
 
 
 The __Box-Jenkins method__ is composed of two primary tasks:
